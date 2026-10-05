@@ -3438,6 +3438,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "InstantiationAction",
+                    "type": "Button",
+                    "id": "7e054374-a10c-4f3c-b7f6-7ec70af06364",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -3482,6 +3491,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "GripRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4720f35a-4728-4919-8ab7-33d0a5e16f65",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InstantiationAction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
